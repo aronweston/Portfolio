@@ -1,21 +1,11 @@
-import * as React from 'react';
+import React from 'react';
+import Layout from '../components/Layout';
 
-// data
-const links = [
-  {
-    text: '',
-    url: '',
-    description: '',
-  },
-];
-
-// markup
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
+    <Layout title='home page'>
       <h1>Hello World</h1>
-    </main>
+    </Layout>
   );
 };
 
