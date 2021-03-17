@@ -2,9 +2,7 @@ import React from 'react';
 
 const Main = ({ children }) => {
   return (
-    <main className='container max-w-screen-large mx-auto mb-auto'>
-      {children}
-    </main>
+    <main className='w-full header-space md:mt-18 h-screen'>{children}</main>
   );
 };
 

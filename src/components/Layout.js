@@ -5,14 +5,14 @@ import Main from './Main';
 
 const Layout = ({ children, title }) => {
   return (
-    <>
+    <div className='flex flex-col h-screen justify-between'>
       <Header />
       <Main>
         <title>{title}</title>
         {children}
       </Main>
-      <Footer />
-    </>
+      {/* <Footer /> */}
+    </div>
   );
 };
 
